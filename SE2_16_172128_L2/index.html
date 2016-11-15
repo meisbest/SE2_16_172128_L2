@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Warehouse</title>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="container">
+		Massimo numero di righe: <span id="old_max">30</span>. Nuovo valore: <input type="number" id="new_max" value="30" style="width:50px;">. <a>Conferma</a>
+
+		<div class="table" id="mainTable">
+			<div>
+				<div>Nome</div>
+				<div>Quantit&agrave;</div>
+			</div>
+			<div>
+				<div>bulloni</div>
+				<div>1</div>
+			</div>
+			<div>
+				<div>chiodi</div>
+				<div>2</div>
+			</div>
+		</div>
+
+		<a>Aggiungi</a>
+
+		<div id="modulo">
+			<label for="nome">Nome</label><br>
+			<input type="text" name="nome" id="nome" required><br>
+
+			<label for="qta">Quantit&agrave;</label><br>
+			<input type="number" name="qta" id="qta" required><br>
+
+			<a id="new">Aggiungi</a>
+		</div>
+	</div>
+</body>
+</html>
