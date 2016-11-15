@@ -40,6 +40,11 @@ function addCose() {
 	document.getElementById("qta").value = "";
 }
 
+/* Since buttons are <a> elements, pressing the Enter key didn't trigger the "form submit". */
+function checkAddCose(e) {
+	if(e.keyCode == 13) {addCose();}
+}
+
 /* Regulates the max number of items */
 function modMax() {
 	var newmax = document.getElementById("new_max").value;

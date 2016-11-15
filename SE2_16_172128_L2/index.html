@@ -30,10 +30,10 @@
 
 		<div id="modulo">
 			<label for="nome">Nome</label><br>
-			<input type="text" name="nome" id="nome" required><br>
+			<input type="text" name="nome" id="nome" onKeyPress="checkAddCose(event)" required><br>
 
 			<label for="qta">Quantit&agrave;</label><br>
-			<input type="number" name="qta" id="qta" required><br>
+			<input type="number" name="qta" id="qta" onKeyPress="checkAddCose(event)" required><br>
 
 			<a id="new" onClick="addCose()">Aggiungi</a>
 		</div>
